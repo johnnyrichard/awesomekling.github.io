@@ -26,7 +26,7 @@ This kind of problem can be hard to spot in longer functions, and you find yours
  
 So I came up with a way to catch some of these bugs. It only works with the Clang compiler (AFAIK) and uses some obscure attributes listed under ["Consumed Annotation Checking"](https://clang.llvm.org/docs/AttributeReference.html#consumed-annotation-checking) in the Clang documentation.
 
-The basic idea is: you mark a class as **consumable**. Objects of that class then exist one of three states: ***unconsumed***, ***consumed*** or ***unknown***. Using function attributes, you can read and modify this state on a per-object basis. And most importantly (for our needs), the compiler can generate a warning when a member function is called on an object in an unwanted state!
+The basic idea is: you mark a class as **consumable**. Objects of that class then exist in one of three states: ***unconsumed***, ***consumed*** or ***unknown***. Using function attributes, you can read and modify this state on a per-object basis. And most importantly (for our needs), the compiler can generate a warning when a member function is called on an object in an unwanted state!
 
 Let's write a little program to illustrate how this mechanism can be harnessed. First, an error-prone version:
 
