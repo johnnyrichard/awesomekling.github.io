@@ -60,6 +60,7 @@ class [[clang::consumable(unconsumed)]] CleverObject {
 public:
     [[clang::return_typestate(unconsumed)]]
     CleverObject() {}
+
     CleverObject(CleverObject&& other) { other.invalidate(); }
 
     [[clang::callable_when(unconsumed)]]
