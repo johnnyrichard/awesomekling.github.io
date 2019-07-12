@@ -58,6 +58,7 @@ Now let's annotate the class with these attributes:
 ```cpp
 class [[clang::consumable(unconsumed)]] CleverObject {
 public:
+    [[clang::return_typestate(unconsumed)]]
     CleverObject() {}
     CleverObject(CleverObject&& other) { other.invalidate(); }
 
@@ -80,10 +81,11 @@ int main(int, char**)
 }
 ```
 
-We've made these three annotations:
+We've made these four annotations:
 
 * The `CleverObject` class is made **consumable**, with each object starting out in the ***unconsumed*** state.
-* The `do_something()` functionfunction  must only be called on objects in the ***unconsumed*** state.
+* The constructor is marked as returning an object in the ***unconsumed*** state.
+* The `do_something()` function  must only be called on objects in the ***unconsumed*** state.
 * The `invalidate()` function sets the state of the callee object to ***consumed***. Note that the `CleverObject(CleverObject&&)` move constructor calls `invalidate()` on the moved-from object, causing it to become ***consumed***.
 
 
