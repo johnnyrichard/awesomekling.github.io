@@ -10,7 +10,7 @@ I've been writing C++ for many years at companies both big and small. There's a 
 
 ### YouTube
 
-I regularly upload screencasts of me working on Serenity to [my YouTube channel](https://youtube.com/c/AndreasKling). I'm also doing a series of informal "commute talks" in the car where I discuss random programming topics or tell (hopefully) interesting stories about jobs I've had.
+I regularly upload screencasts of me working on Serenity to [my YouTube channel](https://youtube.com/c/AndreasKling). I'm also doing a series of informal ["commute talks"](https://www.youtube.com/playlist?list=PLMOpZvQB55beZVZnnck4Q-J9nVQP6ihVP) in the car where I discuss random programming topics or tell (hopefully) interesting stories about jobs I've had.
 
 There's no flashy editing or jumpcuts, it's all raw footage minus the occasional extremely loud sneeze or cough.
 
