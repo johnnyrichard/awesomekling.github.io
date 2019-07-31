@@ -74,7 +74,7 @@ It's not perfect, but AFAIK it's the best we can do with the language support av
 
 #### Bonus: NonnullOwnPtrVector
 
-`NonnullOwnPtr` also has a complementary template called `NonnullOwnPtrVector`. It inherits from `Vector<OwnPtr<T>>` and enhances it by overloading all the accessors and making them return `T&` rather than `NonnullOwnPtr<T>&`.
+`NonnullOwnPtr` also has a complementary template called `NonnullOwnPtrVector`. It inherits from `Vector<NonnullOwnPtr<T>>` and enhances it by overloading all the accessors and making them return `T&` rather than `NonnullOwnPtr<T>&`.
 
 This allows you to write very pleasant-looking code with dots(`.`) instead of arrows(`->`):
 
