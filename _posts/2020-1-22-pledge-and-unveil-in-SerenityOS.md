@@ -13,7 +13,7 @@ If you're not familiar, let me introduce them:
 
 ## pledge(): "I promise I will only do X, Y and Z"
 
-Most programs have a pretty good idea of what they'll be doing in their lifetime. They'll open some files, read some inputs, generate some outputs. Maybe the'll connect to a server over the Internet to download something. Maybe it'll write something to disk.
+Most programs have a pretty good idea of what they'll be doing in their lifetime. They'll open some files, read some inputs, generate some outputs. Maybe they'll connect to a server over the Internet to download something. Maybe they'll write something to disk.
 
 `pledge()` allows programs to declare up front what they'll be doing. Functionality is divided into a reasonably small number of "promises" that can be combined. Each promise is basically a subset of the kernel's syscalls.
 
@@ -75,7 +75,7 @@ int Process::sys$setuid(uid_t uid)
 
 The macro expands to some code that verifies that the current process has either made no promises (`pledge()` is opt-in) or has made some promise(s) and **`id`** is one of them. If there are promises but no **`id`**, the program is immediately terminated by an uncatchable `SIGABRT`.
 
-Sometimes, things get a bit more complicated. For example, to accomodate the windowing system, we make an exception to allow `getsockopt()` with `SO_PEERCRED` on local sockets for processes that have pledged **`accept`**:
+Sometimes, things get a bit more complicated. For example, to accommodate the windowing system, we make an exception to allow `getsockopt()` with `SO_PEERCRED` on local sockets for processes that have pledged **`accept`**:
 
 ```cpp
 int Process::sys$getsockopt(const Syscall::SC_getsockopt_params* params)
@@ -101,9 +101,9 @@ Now that we've limited ourselves to a small set of syscalls with `pledge()`, the
 int unveil(const char* path, const char* permissions);
 ```
 
-A `path` can be either a file or a directory. If it's a directory, the permissions will apply to any file in the subtree of that directory.
+`path` can be either a file or a directory. If it's a directory, the permissions will apply to any file in the subtree of that directory.
 
-The `permissions` is a string containing zero or all of these letters:
+`permissions` is a string containing zero or more of these letters:
 
 * **`r`**: Read access
 * **`w`**: Write access
@@ -112,7 +112,7 @@ The `permissions` is a string containing zero or all of these letters:
 
 Just like `pledge()`, permissions can only be reduced, never increased.
 
-Another important difference is that unlike `pledge()`, trying to open a file that's not visible due to `unveil()` will not terminate the program. The attempt will simply fail with `ENOENT` (or `EACCES` if the path was unveiled, but not with the requested permissions.)
+Another important difference is that unlike `pledge()`, trying to open a file that's not visible due to `unveil()` will not terminate the program. Instead, the attempt will simply fail with `ENOENT` (or `EACCES` if the path was unveiled, but not with the requested permissions.)
 
 Let's look at an example from our `/bin/man` program:
 
