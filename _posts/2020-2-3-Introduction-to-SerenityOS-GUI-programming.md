@@ -175,7 +175,7 @@ The SerenityOS GUI is event-driven, and most of the logic is about widgets handl
 
 ```cpp
     virtual void change_event(GUI::Event&);
-    virtual void child_event(Core::ChildEvent&) override;
+    virtual void child_event(Core::ChildEvent&);
     virtual void click_event(GUI::MouseEvent&);
     virtual void context_menu_event(GUI::ContextMenuEvent&);
     virtual void doubleclick_event(GUI::MouseEvent&);
