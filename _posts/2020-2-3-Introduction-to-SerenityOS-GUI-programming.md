@@ -107,7 +107,7 @@ int main(int argc, char** argv)
 }
 ```
 
-The above program uses a generic `GUI::Widget` as the window's main widget, and assigns a `layout` to it. LibGUI currently offers two layouts: `HorizontalBoxLayout` and `VerticalBoxLayout`. Once a layout is assigned to a widget, it will manage the location and shape of that widget's immediate children.
+The above program uses a generic `GUI::Widget` as the window's main widget, and assigns a *layout* to it. LibGUI currently offers two layouts: `HorizontalBoxLayout` and `VerticalBoxLayout`. Once a layout is assigned to a widget, it will manage the location and shape of that widget's immediate children.
 
 ![Example 4]({{ site.url }}/assets/libgui-intro-4.png){: .fancy-image }
 
@@ -197,7 +197,7 @@ The SerenityOS GUI is event-driven, and most of the logic is about widgets handl
     virtual void show_event(GUI::ShowEvent&);
 ```
 
-***Details:*** *The call to `GUI::Widget::update()` in `mousedown_event` is what causes the widget to be repainted. Internally, this sends an invalidation rect to the WindowServer program, which will let us know when it's time to paint. When the time comes, we get a call to `paint_event` and can paint our widget however we like.*
+***Details:*** *The `C_OBJECT` macro is used in all `Core::Object` subclasses to insert some shared functionality at the preprocessing stage. The call to `GUI::Widget::update()` in `mousedown_event` is what causes the widget to be repainted. Internally, this sends an invalidation rect to the WindowServer program, which will let us know when it's time to paint. When the time comes, we get a call to `paint_event` and can paint our widget however we like.*
 
 ### Conclusion
 
