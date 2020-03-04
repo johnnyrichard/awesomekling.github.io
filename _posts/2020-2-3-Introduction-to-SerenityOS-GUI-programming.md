@@ -113,7 +113,7 @@ The above program uses a generic `GUI::Widget` as the window's main widget, and 
 
 We add two children to the main widget, a label and button, causing them to get laid out vertically in insertion order, label up top, button down below.
 
-***Details:*** *Using the layout system is optional (but preferred due to its simplicity.) It's also possible to place and size children directly by calling `GUI::Widget::set_relative_rect(x, y, width, height) on them. To build complex user interfaces, layouts can be nested arbitrarily by adding layouts to the children of the main widget, etc. Widgets have size policies and preferred size that can be used to adjust layout. Widgets own their children.*
+***Details:*** *Using the layout system is optional (but preferred due to its simplicity.) It's also possible to place and size children directly by calling `GUI::Widget::set_relative_rect(x, y, width, height)` on them. To build complex user interfaces, layouts can be nested arbitrarily by adding layouts to the children of the main widget, etc. Widgets have size policies and preferred size that can be used to adjust layout. Widgets own their children.*
 
 ### Okay, let's make a custom widget!
 
