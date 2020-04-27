@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "Smarter C++ inlining with __attribute__((flatten))"
+title: "Smarter C/C++ inlining with __attribute__((flatten))"
 ---
 
-Note: This post applies to C as well.
+This post describes a compile-time technique for getting the benefits of aggressive inlining in hot code while protecting cool code from its downsides.
 
 ---
+
+*(Note: This post applies to C as well.)*
 
 Hello friends!
 
