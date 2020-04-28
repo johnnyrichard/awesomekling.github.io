@@ -7,11 +7,9 @@ This post describes a compile-time technique for getting the benefits of aggress
 
 ---
 
-*(Note: This post applies to C as well.)*
-
 Hello friends!
 
-A common technique for improving performance of hot code on C++ is to inline the hottest functions called. While it often helps make things faster, there are some downsides to inlining. Let's quickly review the pros & cons:
+A common technique for improving performance of hot code in C/C++ is to inline the hottest functions called. While it often helps make things faster, there are some downsides to inlining. Let's quickly review the pros & cons:
 
 **Pros of inlining:**
 
@@ -33,7 +31,7 @@ However, sometimes *you* know some code is **hot** and the compiler has no idea.
 Here's a contrived example of a very common scenario in larger codebases:
 
 ```cpp
-__attribute__((always_inline)) inline void do_thing(int input
+__attribute__((always_inline)) inline void do_thing(int input)
 {
     // this code is always inlined at the call site
 }
