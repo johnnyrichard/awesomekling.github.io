@@ -26,7 +26,7 @@ When compiling with optimizations, the compiler usually makes pretty reasonable 
 
 ## Manual inlining with `__attribute__((always_inline))`
 
-However, sometimes *you* know some code is **hot** and the compiler has no idea. This is usually when `__attribute__((always_inline))` comes in. If you add this attribute to a function, that function will now be inlined wherever it is called, even when the compiler would normally have dismissed it as too large or otherwise unsuitable.
+However, sometimes *you* know some code is **hot** and the compiler has no idea. This is usually when `__attribute__((always_inline))` comes in. If you add this attribute to a function, that function will now be inlined wherever it is called, even when the compiler would normally have dismissed it as too large. *(Note that there are exceptions to this, and some functions cannot be inlined.)*
 
 Here's a contrived example of a very common scenario in larger codebases:
 
