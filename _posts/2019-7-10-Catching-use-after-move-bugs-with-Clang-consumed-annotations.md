@@ -7,6 +7,8 @@ This post describes a compile-time technique for catching use-after-move bugs in
 
 ---
 
+***Update:*** *We've stopped using this in SerenityOS since it stopped working as the codebase became more complex and Clang was not our primary toolchain compiler anyway.*
+
 We were all excited when C++11 added move semantics. Finally we could work *together* with the compiler to avoid copies (instead of *against* the compiler, which is how it sometimes felt before.)
 
 There is one footgun lurking with move semantics though. Once you `std::move` an object and pass it to someone who takes an rvalue-reference, your local object may very well end up in an invalid state. It'll still be destructible, of course, but it's no longer logically valid.
