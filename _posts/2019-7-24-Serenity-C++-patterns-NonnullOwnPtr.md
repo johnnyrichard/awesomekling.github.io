@@ -97,7 +97,7 @@ Pretty neat, no? :^)
 #### So where's the code?
 
 * [serenity/AK/NonnullOwnPtr.h](https://github.com/SerenityOS/serenity/blob/master/AK/NonnullOwnPtr.h)
-* [serenity/AK/NonnullOwnPtrVector.h](https://github.com/SerenityOS/serenity/blob/master/AK/NonnullOwnPtr.h)
+* [serenity/AK/NonnullOwnPtrVector.h](https://github.com/SerenityOS/serenity/blob/master/AK/NonnullOwnPtrVector.h)
 
 Note: The `CONSUMABLE`, `SET_TYPESTATE`, `RETURN_TYPESTATE` and `CALLABLE_WHEN` macros can be found in [serenity/AK/Platform.h](https://github.com/SerenityOS/serenity/blob/master/AK/Platform.h)
 
