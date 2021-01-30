@@ -18,7 +18,7 @@ There's no flashy editing or jumpcuts, it's all raw footage minus the occasional
 
 I've started accepting monthly donations via Patreon since many people were interested in funding my work on SerenityOS. It's amazing that people are willing to support such a crazy project, and it's making me wonder just how far we can take this. [Check out my Patreon!](https://patreon.com/serenityos)
 
-As of October 2018, I'm also in the [GitHub Sponsors program](https://github.com/sponsors/awesomekling/) as well.
+As of October 2019, I'm also in the [GitHub Sponsors program](https://github.com/sponsors/awesomekling/) as well.
 
 Finally I also accept one-time donations [via Paypal](http://paypal.me/awesomekling) for anyone who prefers that.
 
