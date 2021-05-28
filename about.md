@@ -20,10 +20,12 @@ I've started accepting monthly donations via Patreon since many people were inte
 
 As of October 2019, I'm also in the [GitHub Sponsors program](https://github.com/sponsors/awesomekling/) as well.
 
-Finally I also accept one-time donations [via Paypal](http://paypal.me/awesomekling) for anyone who prefers that.
+Finally I also accept one-time donations [via Paypal](https://paypal.me/awesomekling) for anyone who prefers that.
 
 ### Contact me
 
-You can usually find me as `kling` in `#serenityos` on the Freenode IRC network.
+You can find me on Twitter as [@awesomekling](https://twitter.com/awesomekling)
 
-I'm also available via e-mail, although I get a lot of it, so I appreciate short and to-the-point messages :) [kling@serenityos.org](mailto:kling@serenityos.org)
+If you want to talk about SerenityOS, come to [our Discord server](https://discord.gg/29gCcKsXkF) and meet the whole community!
+
+I'm also available via e-mail, although I get a lot of it, so I appreciate short and to-the-point messages :^) [kling@serenityos.org](mailto:kling@serenityos.org)
