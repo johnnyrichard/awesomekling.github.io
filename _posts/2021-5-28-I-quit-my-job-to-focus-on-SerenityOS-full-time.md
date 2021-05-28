@@ -9,9 +9,9 @@ It was October 2018 and I had just completed a 3-month rehab program at a state 
 
 With no drugs or other vices to pass the time, the days seemed impossibly long. I struggled to find activities to fill them. I enrolled in school for a while, but it wasn't for me this time either. Eventually I turned to programming, since it's always been my big interest in life.
 
-Until that point, my career had been focused on web browsers (WebKit at Apple & Nokia). However, I had always been interested in low-level things so I began [tinkering](http://serenityos.org/happy/1st/) with some of that. I wrote a little ELF executable parser.. And an Ext2 filesystem browser.. And a little GUI framework with an event loop..
+Until that point, my career had been focused on web browsers (WebKit at Apple & Nokia). However, I had always been interested in low-level things so I began [tinkering](http://www.serenityos.org/happy/1st/) with some of that. I wrote a little ELF executable parser.. And an Ext2 filesystem browser.. And a little GUI framework with an event loop..
 
-Out of this tinkering, an operating system began to take shape. I chose the name [**SerenityOS**](https://serenityos.org/) because I wanted to always remember the [Serenity Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer). I was quite worried about my future at the time, and I figured that this name would help me stay on the good path.
+Out of this tinkering, an operating system began to take shape. I chose the name [**SerenityOS**](https://www.serenityos.org/) because I wanted to always remember the [Serenity Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer). I was quite worried about my future at the time, and I figured that this name would help me stay on the good path.
 
 My general idea was to build my own dream system for daily use. It would be a combination of my two favorite computing paradigms: the 1990s GUI and the no-nonsense command-line of late-2000s Unix.
 
