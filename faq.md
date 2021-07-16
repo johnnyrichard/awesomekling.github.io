@@ -20,6 +20,10 @@ In the past, I have worked as a programmer at many small and large tech companie
 
 I'm using the [CLion C++ IDE from JetBrains](https://jetbrains.com/clion/).
 
+## What keyboard are you using?
+
+It's a [Logitech K740](https://www.logitech.com/en-us/product/illuminated-keyboard-k740). I bought it primarily for the pleasantly low typing noise, but it's also quite nice to type on.
+
 ## Why are you building SerenityOS? / What is your goal with SerenityOS?
 
 I started building SerenityOS to keep myself busy after finishing a 3-month drug addiction rehab program in 2018.
