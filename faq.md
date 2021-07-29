@@ -40,6 +40,10 @@ I don't have a plan for features/technologies/etc to implement.
 
 If someone implements it, yes. If not, no. If you want something to happen, it's up to you to make it happen.
 
+## Why did you choose the 2-clause BSD license for SerenityOS?
+
+Because I like the 2-clause BSD license. I am not a fan of "copyleft" or forcing obligations on people in general. I want my software to be available for anyone who wants to use it.
+
 ## Does SerenityOS have a package manager?
 
 No, SerenityOS does not have a package manager. The project uses a monorepo approach, meaning that all software is built in the same style and using the same tools. There is no reason to have something like a package manager because of this.
