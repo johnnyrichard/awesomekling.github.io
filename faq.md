@@ -6,6 +6,10 @@ permalink: /faq/
 
 These are some very frequently asked questions about me ([Andreas Kling]({{ site.url }})) and the [SerenityOS](https://serenityos.org/) project.
 
+## What does WHF mean?
+
+Well Hello Friends! :^)
+
 ## What is your job?
 
 As of May 2021, [I'm working on SerenityOS full time](https://awesomekling.github.io/I-quit-my-job-to-focus-on-SerenityOS-full-time/).
