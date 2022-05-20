@@ -59,7 +59,7 @@ So, let's take a look at **Jakt**! It's...
 - Immutable by default
 - *Young and immature, not ready for anything serious*
 
-The current Jakt compiler is written in Rust and spits out C++. Development happens in the [jakt](https://github.com/awesomekling/jakt) repository on GitHub.
+The current Jakt compiler is written in Rust and spits out C++. Development happens in the [jakt](https://github.com/SerenityOS/jakt) repository on GitHub.
 
 ### A little Jakt program
 
