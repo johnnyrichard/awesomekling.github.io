@@ -9,7 +9,6 @@ These are some very frequently asked questions about me ([Andreas Kling]({{ site
 ## What does WHF mean?
 
 Well Hello Friends! :^)
-
 ## What is your job?
 
 As of May 2021, [I'm working on SerenityOS full time](https://awesomekling.github.io/I-quit-my-job-to-focus-on-SerenityOS-full-time/).
@@ -35,6 +34,10 @@ I'm currently using [Berkeley Mono](https://berkeleygraphics.com/typefaces/berke
 ## What keyboard are you using?
 
 It's a [Logitech K280e](https://www.logitech.com/assets/49240/k280e-business-datasheet.pdf). I bought it primarily for the pleasantly low typing noise, but it's also quite nice to type on.
+
+## What mouse are you using?
+
+It's a [Logitech M330 Silent Plus](https://www.logitech.com/en-us/products/mice/m330-silent-plus-mouse.910-004905.html).
 
 ## Why are you building SerenityOS? / What is your goal with SerenityOS?
 
@@ -93,3 +96,7 @@ Check out the [OSDev Wiki](https://wiki.osdev.org/Main_Page).
 ## Will you make tutorials about OS development?
 
 No, I'm not making educational content for beginners. There are plenty of resources for beginners already, and I'm focusing on content for more advanced programmers.
+
+## Can I have your wallpaper from Office Hours?
+
+Sure, here you go: ![CatDog wallpaper]({{ site.url }}/assets/catdog_wallpaper.png)
