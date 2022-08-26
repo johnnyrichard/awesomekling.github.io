@@ -24,9 +24,17 @@ In the past, I have worked as a programmer at many small and large tech companie
 
 I'm using the [CLion C++ IDE from JetBrains](https://jetbrains.com/clion/).
 
+## What's your CLion color theme?
+
+It's the [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui) plugin with the "Material Darker" theme.
+
+## Which fonts are you using in your videos?
+
+I'm currently using [Berkeley Mono](https://berkeleygraphics.com/typefaces/berkeley-mono) for code and [Inter](https://rsms.me/inter/) for my Linux desktop UI.
+
 ## What keyboard are you using?
 
-It's a [Logitech K740](https://www.logitech.com/en-us/product/illuminated-keyboard-k740). I bought it primarily for the pleasantly low typing noise, but it's also quite nice to type on.
+It's a [Logitech K280e](https://www.logitech.com/assets/49240/k280e-business-datasheet.pdf). I bought it primarily for the pleasantly low typing noise, but it's also quite nice to type on.
 
 ## Why are you building SerenityOS? / What is your goal with SerenityOS?
 
